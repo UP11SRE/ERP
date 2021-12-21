@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Register</title>
+
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"
+    />
+</head>
+<body>
+<header  class="position-static">
+    <div class="row">
+        <div class="header col-2" style="z-index: 100;border-color: black">
+            <nav class="navbar  fixed-top navbar-expand-lg mb-7  navbar-dark bg-light" style="height: 5vw;">
+                <div class="navbar-brand" >
+                    <span><img src="assests/images/logo.png" width="175" height="75" class="d-inline-block align-top a"  style="border-radius: 50%;" alt=""></span>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<div style="background-size: cover ;height: 900px;">
+    <div class="row">
+        <div class="col-12" style="margin-top: 7vw;">
+            <div class="card bg-light mx-auto" style="width: 65%; border-radius: 5% 5%">
+                <div class="mx-auto">
+                    <img src="assests/images/logo2.png" class="d-inline-block align-top a"  style="height:175px ;width: 20vw;" alt="">
+                </div>
+
+
+                <div class="card-body mx-auto " style="color: black;">
+                    <h1 class="card-title text-left" style="font-weight: 300;font-size: 2vw;">
+                        <b>
+                            Register
+                        </b>
+                    </h1>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">First Name</span>
+                                <input type="text" class="form-control" aria-label="Sizing example input" id="fname"/>
+                            </div>
+
+                        </div>
+
+                        <div class="col-6">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">Last name</span>
+                                <input type="text" class="form-control" aria-label="Sizing example input" id="lname"/>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">Email</span>
+                        <input type="text" class="form-control" aria-label="Sizing example input" id="email"/>
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <select class="form-select" aria-label="Default select example" id="dept">
+                            <option selected>Department</option>
+                            <option value="1">Administration</option>
+                            <option value="2">Research</option>
+                            <option value="3">Finance</option>
+                            <option value="4">Security</option>
+                            <option value="5">Facility and Logistic</option>
+                        </select>
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">Profile photo</span>
+                        <input type="file" class="form-control" aria-label="Sizing example input" id="avatar" accept="image/png, image/jpeg"/>
+                    </div>
+
+
+
+                    <div  style="margin-inline: 30%; ">
+                        <button id="login" class="btn login-btn btn-submit" style="border-radius: 0.5vw; background-color: #0080ff; color: white;font-size: 1.5vw;width: 100%" onclick="submitFunction()" >
+                            Register
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- script -->
+
+
+<script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"
+></script>
+<script
+        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"
+></script>
+<script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"
+></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script src="assests/javascript/login.js"></script>
+
+
+</body>
+</html>
